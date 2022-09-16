@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
@@ -25,7 +26,12 @@
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
-          <li>Enter your CSS notes here</li>
+          <li>Inline CSS designates a change for a particular components. (inserted into original code)</li>
+          <li>Internal style sheets designate changes for HTML commands on a webpage. (inserted into original code)</li>
+          <li>External CSS style sheets are most popular because changes are kept separate. This sheet is later attached to original code.
+          <li>To attach the external CSS stye sheet to an HTML code, you must enter the "rel" (indicates relationship) and "href" (indicates the location, or URL) into the "link" indicator in the HTML code.</li>
+          <li>You can apply the same rule for multiple selectors by listing them and separating them by commas prior to command. (ie. "h1, h2" or "header, footer") </li>
+          <li>"." preceding an HTML element will apply the following rule to all the elements under that classification.</li>
         </ul>
       </section>
       <section class="card" id="git-section">
@@ -34,7 +40,7 @@
           <li>git statues: check what branch we are currently on</li>
           <li>git checkout -b branch-name: creates a new branch</li>
           <li>git add -A: signals to system that all changes made within branch will be saved at next commit</li>
-          <li>git commit -m "description of changes": saves changes made within branch. Be sure to add a description for later reference.</li>
+          <li>git commit -m "description of changes": saves changes made within branch. "-m" associates a message with your commit. Be sure to add a description for later reference.</li>
           <li>git pull origin main: pulls branch modifications into local workspace. "Main" indicates which branch you're pulling from.</li>
           <li>git push origin branch name: pushes changes made in local workspace to remote workspace. You can create a new remote branch or add changes to an existing branch.</li>
         </ul>
